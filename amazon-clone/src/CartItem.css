@@ -1,0 +1,31 @@
+.cartItem {
+  display: flex;
+  margin: 20px 40px;
+}
+
+.cartItem__details {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cartItem__details > button {
+  background: #f0c14b;
+  height: 30px;
+  width: 150px;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #cd9042;
+  color: black;
+}
+
+.cartItem__image {
+  object-fit: contain;
+  width: 180px;
+  height: 180px;
+}
+
+.cartItem__title {
+  font-size: 16px;
+  font-weight: 800;
+}

@@ -1,0 +1,149 @@
+.totalHeader {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header {
+  flex: 0.6;
+  display: flex;
+  align-items: center;
+  background-color: #131921;
+}
+
+.header__logo {
+  width: 100px;
+  object-fit: contain;
+  margin: 0 20px;
+  margin-top: 18px;
+}
+
+.header__deliveryInfo {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px 10px;
+}
+
+.header__deliverTo {
+  margin: 0 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid transparent;
+}
+
+.header__deliverTo:hover {
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.header__deliverTo > span {
+  padding: 10px 0;
+}
+
+.header__search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.header__searchInput {
+  height: 12px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  border-left: 1px solid white;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.header__searchIcon {
+  padding: 5px;
+  background-color: #cd9042;
+  height: 22px !important;
+  border-left: 1px solid #cd9042;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.header__option {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px 10px;
+}
+
+.header__optionLineOne {
+  font-size: 14px;
+}
+
+.header__optionLineTwo {
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.header__optionCart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding: 10px 10px;
+}
+
+.header__optionCart > span {
+  color: orange;
+}
+
+.subheader {
+  flex: 0.4;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #233041;
+}
+
+.subheader__menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px 10px;
+}
+
+.subheader__menuText {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.subheader__option {
+  color: white;
+  justify-content: center;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.subheader__menu:hover,
+.subheader__option:hover,
+.header__option:hover {
+  border: 1px solid white;
+  border-radius: 2px;
+}

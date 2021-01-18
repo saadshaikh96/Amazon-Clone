@@ -1,0 +1,11 @@
+Hosted url: https://clone-90982.web.app/
+
+• When locally developing, use base URL in axios as "http://localhost:5001/clone-90982/us-central1/api"
+• When deployed, use base URL in axios as "https://us-central1-clone-90982.cloudfunctions.net/api"
+
+
+Deploying the app:
+• firebase init (Select hosting and overwrite any previous builds. Select build as the public directory.)
+• From the app directory, do: npm run build
+• firebase deploy --only hosting -> Will deploy the front end
+• firebase deploy --only functions -> Will deploy the functions which is the backend. Must be run from the functions directory.

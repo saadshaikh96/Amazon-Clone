@@ -1,0 +1,22 @@
+.cart {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  background-color: rgba(232, 231, 240, 0.925);
+  height: max-content;
+}
+
+.cart__ad {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.cart__title {
+  margin-right: 10px;
+  padding: 10px;
+  border-bottom: 2px solid lightgray;
+}
+
+.cart__products {
+  background-color: white;
+}
