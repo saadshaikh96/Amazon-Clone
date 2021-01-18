@@ -4,7 +4,7 @@ The front end is built using React.
 
 The backend uses Node and is built using Firebase. It is used to process payments using the Stripe API.
 
-Firebase authentication is used to login users. Users will first have create an account and then log in with that username an dpassword.
+Firebase authentication is used to login users. Users will have to create an account and then log in with that username and password.
 
 Hosted at: https://clone-90982.web.app/
 
